@@ -16,7 +16,7 @@ This application is a simple task management system built with Spring Boot, JPA,
 
 ```sh
 git clone https://github.com/praveen-chauhan/TaskManager.git
-cd taskmanager
+cd TaskManager
 ```
 
 
