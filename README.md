@@ -15,7 +15,7 @@ This application is a simple task management system built with Spring Boot, JPA,
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/taskmanager.git
+git clone https://github.com/praveen-chauhan/TaskManager.git
 cd taskmanager
 ```
 
