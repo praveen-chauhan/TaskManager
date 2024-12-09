@@ -1,8 +1,6 @@
 package com.assignment.TaskManager.Entities;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -10,7 +8,6 @@ import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 
 import java.time.Instant;
-//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 @Entity(name="tasks")
 @Data
 public class Task {
